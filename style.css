@@ -2,14 +2,20 @@
 Juliana's project webpage v.1
 Author: Juliana Son
 */
-
 h1{
-		font-family: helvetica;
-		font-size: 75px;
-		text-align: center;
-	}
-	p{
-		font-family: arial;
-		font-size: 20px;
-		text-align: left;
-	}
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+}
+p{
+	font-size: 25px;
+	font-family: arial;
+}
+hr{
+	border-color:#2F4F4F;
+}
+#content{
+	width: 700px;
+	margin: 0 auto;
+}
