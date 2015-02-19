@@ -6,11 +6,13 @@ h1{
 	font-family: Arial;
 	font-weight: bold;
 	font-size: 60px;
+	color: #00539e;
 	text-align: center;
 }
 p{
 	font-size: 25px;
 	font-family: arial;
+	color: #292e2e;
 }
 hr{
 	border-color:#2F4F4F;
