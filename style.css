@@ -2,6 +2,10 @@
 Juliana's project webpage v.1
 Author: Juliana Son
 */
+body{
+	width: 1000px;
+	margin: 0 auto;
+}
 h1{
 	font-family: Arial;
 	font-weight: bold;
@@ -14,10 +18,21 @@ p{
 	font-family: arial;
 	color: #292e2e;
 }
-hr{
-	border-color:#2F4F4F;
+ul{
+	font-family: arial;
+	font-size: 18px;
+	color: #292e2e;
 }
-#content{
-	width: 700px;
-	margin: 0 auto;
+hr{
+	border-color:#56bdd6;
+}
+h3{
+	font-family: arial;
+	font-size: 25px;
+}
+a{
+	font-family: arial;
+}
+a:hover {
+	color: red;
 }
