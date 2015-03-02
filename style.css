@@ -21,6 +21,28 @@ h1{
 	font-style: italic;
 	text-align: center;
 }
+#nav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc; 
+    border-top: 1px solid #ccc;
+}
+#nav li {
+    display: inline;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #069;
+    border-right: 1px solid #ccc; 
+}
+#nav a:link, a:visited {
+    text-decoration: none;
+}
+#nav a:hover, a:active {
+    background-color: #FFFFFF;
+    }
 h2{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 25px;
@@ -47,5 +69,5 @@ a{
 	font-family: arial;
 }
 a:hover {
-	color: red;
+	color: #75E83C;
 }
