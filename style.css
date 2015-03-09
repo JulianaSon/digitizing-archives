@@ -2,72 +2,56 @@
 Juliana's project webpage v.1
 Author: Juliana Son
 */
-body{
-	width: 900px;
-	margin: 0 auto;
+header, section, footer, aside, nav, .posts, .project, .team, .testimonies, .contact {
+	display: block;}
+body {
+	color: #666666;
+	font-family: Georgia, Times, Serif;
+	line-height: 1.4em;
+	margin: 0px;
 }
-h1{
-	font-family: Courier, Georgia, Times;
-	font-style: bold;
-	font-size: 72px;
-	color: #594CFF;
-	text-align: center;
-	text-shadow: 0 3px 3px #d3d3d3;
-}
-#summary{
-	font-family: Arial, Helvetica, sans-serif;
+#logo {
+	margin-top: 10px;
+	text-align: left;
 	font-size: 25px;
-	color: #bdbdbd;
-	font-style: italic;
-	text-align: center;
 }
-#nav ul{
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    border-bottom: 1px solid #ccc; 
-    border-top: 1px solid #ccc;
+#banner {
+	background-color: #000000;
 }
-#nav li {
-    display: inline;
-    padding: 8px 15px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #069;
-    border-right: 1px solid #ccc; 
-}
-#nav a:link, a:visited {
-    text-decoration: none;
-}
-#nav a:hover, a:active {
-    background-color: #FFFFFF;
-    }
-h2{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 25px;
-	color: #FFFFFF;
-	text-align: center;
+nav, footer {
+	clear: both;
+	color: #ffffff;
 	background-color: #594CFF;
+	height: 30px;
 }
-p{
-	font-size: 18px;
-	font-family: Arial, Helvetica, sans-serif;
+nav ul {
+margin: 0px;
+padding: 5px 0px 5px 30px;
 }
-ul{
-	font-family: arial;
-	font-size: 18px;
+nav li {
+	display: inline;
+	margin-right: 40px;
 }
-hr{
-	border-color:#56bdd6;
+nav a {
+	color: #ffffff;
 }
-h3{
-	font-family: arial;
-	font-size: 20px;
+nav li a:hover, nav li a.current {
+	color: #000000;
 }
-a{
-	font-family: arial;
+#articles {
+	float: left;
+	width: 700px;
+	margin: 20px 100px 20px 150px;
 }
-a:hover {
-	color: #75E83C;
+.posts, #project, #team, #contact {
+	margin-bottom: 40px;
+}
+#sidebar {
+	float: left;
+	width: 280px;
+	margin: 20px;
+}
+footer {
+	font-size: 80%;
+	padding: 7px 0px 0px 20px;
 }
